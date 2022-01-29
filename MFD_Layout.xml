@@ -1,0 +1,1133 @@
+<?xml version="1.0"?>
+<configuration>
+	<textures>
+		<texture alias="hexagons" texturescale="1" atlaswidth="512" iconheight="200" iconwidth="128" textstart="150">Hexagons.tga</texture>
+	</textures>
+	<layouts>
+		<layout id="0" alias="Flight" role_id="0">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="202070FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="80BFFF" off="801010FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="84"/>
+				<noticeboard textcolour="FE690AFF" fontsize="40"/>
+				<statustext textcolour="F0F0F0FF" fontsize="30"/>
+				<targettext textcolour="B0B0B0FF" fontsize="27"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="1" IconTextColourOff="0">
+				<button bid="0" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="Free Camera Toggle" icon="59" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="Free Camera" icon="53" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="Analysis" icon="29" keypress="" showlabel="true" hazard="false" statusbit="28">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="Night Vision" icon="5" keypress="" showlabel="true" hazard="false" statusbit="29">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="Ship Lights" icon="16" keypress="" showlabel="true" hazard="false" statusbit="9">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="Cargo Scoop" icon="7" keypress="" showlabel="true" hazard="false" statusbit="10">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="Landing Gear" icon="6" keypress="" showlabel="true" hazard="false" statusbit="3">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="Request Dock" icon="37" keypress="FocusLeftPanel=1;CycleNextPanel=E;CycleNextPanel=E;UI_Right=D;UI_Select=Space;UI_Left=A;CycleNextPanel=E;FocusLeftPanel=1" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="Eject Cargo" icon="56" keypress="EjectAllCargo=Y,LeftCtrl,LeftAlt" showlabel="true" hazard="true" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="System Map" icon="19" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="Galaxy Map" icon="25" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="SLF Launch" icon="69" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="1" alias="Weapons" role_id="1">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="104010FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="10FF10FF" off="108010FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="74"/>
+				<noticeboard textcolour="FE690AFF" fontsize="40"/>
+				<statustext textcolour="F0F0F0FF" fontsize="30"/>
+				<targettext textcolour="808080FF" fontsize="27"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="1" IconTextColourOff="0">
+				<button bid="0" iconname="Previous Target" icon="48" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="Next Target" icon="35" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="Highest Threat" icon="49" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="Next Hostile" icon="50" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="Previous Hostile" icon="51" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="Reset Pips" icon="42" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="Systems +" icon="54" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="Weapons +" icon="38" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="Run Silent" icon="17" keypress="" showlabel="true" hazard="true" statusbit="11">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="Heat Sink" icon="18" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="ECM" icon="34" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="Chaff" icon="33" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="Shield Cell" icon="82" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="SLF Launch" icon="69" keypress="FocusRadarPanel=F,LeftCtrl,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="Engines +" icon="52" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="Previous Subsystem" icon="41" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="Next Subsystem" icon="40" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="Select Target" icon="81" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="2" alias="SLF" role_id="3">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="550055FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="FF4040FF" off="771010FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="74"/>
+				<noticeboard textcolour="FE690AFF" fontsize="40"/>
+				<statustext textcolour="808080FF" fontsize="30"/>
+				<targettext textcolour="808080FF" fontsize="27"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="0" IconTextColourOff="0">
+				<button bid="0" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="Mute Microphone" icon="80" keypress="MicrophoneMute=U,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="SLF Recall" icon="86" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="FF10FFFF" off="771077FF"/>
+				</button>
+				<button bid="16" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="FF10FFFF" off="771077FF"/>
+				</button>
+				<button bid="17" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="FF10FFFF" off="771077FF"/>
+				</button>
+				<button bid="18" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="FF10FFFF" off="771077FF"/>
+				</button>
+				<button bid="19" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="FF10FFFF" off="771077FF"/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="3" alias="Supercruise" role_id="2">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="202070FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="80BFFF" off="801010FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="60"/>
+				<noticeboard textcolour="FE690AFF" fontsize="40"/>
+				<statustext textcolour="808000FF" fontsize="30"/>
+				<targettext textcolour="808080FF" fontsize="27"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="1" IconTextColourOff="0">
+				<button bid="0" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="radiochatter" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="Free Camera Toggle" icon="59" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="Free Camera" icon="53" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="Analysis" icon="29" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="Night Vision" icon="5" keypress="" showlabel="true" hazard="false" statusbit="29">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="Ship Lights" icon="16" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="System Map" icon="19" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="Galaxy Map" icon="25" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="FF10FFFF" off="771077FF"/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="4" alias="Planetary Landing" role_id="7">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="102040FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="FF0000FF" off="400040FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="67"/>
+				<noticeboard textcolour="FE690AFF" fontsize="40"/>
+				<statustext textcolour="808080FF" fontsize="30"/>
+				<targettext textcolour="808080FF" fontsize="27"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="1" IconTextColourOff="0">
+				<button bid="0" iconname="FSD Jump" icon="32" keypress="HyperSuperCombination=I,LeftShift,LeftAlt" showlabel="false" hazard="false" statusbit="31">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="Flight Assist" icon="2" keypress="ToggleFlightAssist=C,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="6">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="Engine Boost" icon="0" keypress="UseBoostJuice=A,LeftShift,LeftAlt" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="Supercruise" icon="1" keypress="Supercruise=B,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="5">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="Rotational Correction" icon="3" keypress="DisableRotationCorrectToggle=D,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="Full Speed" icon="8" keypress="SetSpeed100=M,LeftCtrl,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="75% forward" icon="23" keypress="SetSpeed75=Numpad_5,LeftAlt" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="50% forward" icon="12" keypress="SetSpeed50=Numpad_4,LeftAlt" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="25% forward" icon="21" keypress="SetSpeed25=Numpad_3,LeftAlt" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="Full Stop" icon="20" keypress="SetSpeedZero=Numpad_2,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="Night Vision" icon="5" keypress="NightVisionToggle=Z,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="29">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="Ship Lights" icon="16" keypress="ShipSpotLightToggle=E,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="9">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="Cargo Scoop" icon="7" keypress="ToggleCargoScoop=Numpad_1,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="Landing Gear" icon="6" keypress="LandingGearToggle=Numpad_0,LeftAlt" showlabel="true" hazard="false" statusbit="3">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="Request Dock" icon="37" keypress="FocusLeftPanel=1;CycleNextPanel=E;CycleNextPanel=E;UI_Select=Space;UI_Right=D;UI_Select=Space;CyclePreviousPanel=Q;CyclePreviousPanel=Q;FocusLeftPanel=1;" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="Eject Cargo" icon="56" keypress="EjectAllCargo=Y,LeftCtrl,LeftAlt" showlabel="true" hazard="true" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="-25%  reverse" icon="9" keypress="SetSpeedMinus25=N,LeftCtrl,LeftAlt" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="-50% Reverse" icon="10" keypress="SetSpeedMinus50=O,LeftCtrl,LeftAlt" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="-75% Reverse" icon="11" keypress="SetSpeedMinus75=P,LeftCtrl,LeftAlt" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="Full Reverse" icon="24" keypress="SetSpeedMinus100=Q,LeftCtrl,LeftAlt" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="5" alias="Exploration" role_id="8">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="104010FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="10FF10FF" off="108010FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="60"/>
+				<noticeboard textcolour="FE690AFF" fontsize="38"/>
+				<statustext textcolour="808080FF" fontsize="30"/>
+				<targettext textcolour="808080FF" fontsize="27"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="1" IconTextColourOff="0">
+				<button bid="0" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="Reset Pips" icon="42" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="Systems +" icon="54" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="Weapons +" icon="38" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="Heat Sink" icon="18" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="Engines +" icon="52" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="Select Target" icon="81" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="FF10FFFF" off="771077FF"/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="6" alias="SRV" role_id="6">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="101055FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="BA20BAFF" off="400040FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="66"/>
+				<noticeboard textcolour="FE690AFF" fontsize="40"/>
+				<statustext textcolour="808080FF" fontsize="30"/>
+				<targettext textcolour="808080FF" fontsize="27"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="1" IconTextColourOff="0">
+				<button bid="0" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="Drive Assist" icon="27" keypress="ToggleDriveAssist=T,LeftCtrl,LeftAlt" showlabel="true" hazard="false" statusbit="16">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="SRV Lights" icon="13" keypress="HeadlightsBuggyButton=A,RightCtrl" showlabel="true" hazard="false" statusbit="32">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="Ship Lights" icon="16" keypress="ShipSpotLightToggle=E,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="9">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="Free Camera" icon="53" keypress="PhotoCameraToggle_Buggy=B,LeftCtrl,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="Free Camera Toggle" icon="59" keypress="ToggleFreeCam=Numpad_1,LeftCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="Night Vision" icon="5" keypress="NightVisionToggle=Z,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="29">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="SRV Turret" icon="12" keypress="ToggleBuggyTurretButton=X,RightCtrl" showlabel="true" hazard="false" statusbit="14">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="Cargo Scoop" icon="7" keypress="ToggleCargoScoop_Buggy=Numpad_1,LeftAlt" showlabel="true" hazard="false" statusbit="10">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="Recall Ship" icon="55" keypress="RecallDismissShip=D,LeftCtrl,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="Eject Cargo" icon="56" keypress="EjectAllCargo_Buggy=Y,LeftCtrl,LeftAlt" showlabel="true" hazard="true" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="Galaxy Map" icon="25" keypress="GalaxyMapOpen_Buggy=R,LeftCtrl,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="System Map" icon="19" keypress="SystemMapOpen_Buggy=H,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="4" alias="Galaxy" role_id="4">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="101040FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="FF0000FF" off="400040FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="58"/>
+				<noticeboard textcolour="FE690AFF" fontsize="40"/>
+				<statustext textcolour="808080FF" fontsize="30"/>
+				<targettext textcolour="808080FF" fontsize="27"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="0" IconTextColourOff="0">
+				<button bid="0" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="5" alias="System" role_id="5">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="0019F0FF" texture="nebula" texturescale="14"/>
+				<iconcolour on="FF0000FF" off="10180FFF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="64"/>
+				<noticeboard textcolour="11FFFFFF" fontsize="20"/>
+				<statustext textcolour="FFFFFFFF" fontsize="20"/>
+				<targettext textcolour="FFFFFFFF" fontsize="20"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="0" IconTextColourOff="0">
+				<button bid="0" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="9" alias="SRV Weapons" role_id="9">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="104010FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="10FF10FF" off="108010FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="74"/>
+				<noticeboard textcolour="FE690AFF" fontsize="40"/>
+				<statustext textcolour="808080FF" fontsize="30"/>
+				<targettext textcolour="808080FF" fontsize="27"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="1" IconTextColourOff="0">
+				<button bid="0" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="Reset Pips" icon="42" keypress="ResetPowerDistribution_Buggy=W,LeftCtrl,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="Systems +" icon="54" keypress="IncreaseSystemsPower_Buggy=C,LeftCtrl,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="Weapons +" icon="38" keypress="IncreaseWeaponsPower_Buggy=Numpad_8,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="" icon="-1" keypress="" showlabel="true" hazard="true" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="SRV Turret" icon="12" keypress="ToggleBuggyTurretButton=X,RightCtrl" showlabel="true" hazard="false" statusbit="14">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="Engines +" icon="52" keypress="IncreaseEnginesPower_Buggy=A,LeftCtrl,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="Select Target" icon="81" keypress="SelectTarget_Buggy=V,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="10" alias="Carrier" role_id="10">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="181850FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="FF0000FF" off="400040FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="58"/>
+				<noticeboard textcolour="FE690AFF" fontsize="40"/>
+				<statustext textcolour="808080FF" fontsize="29"/>
+				<targettext textcolour="808080FF" fontsize="29"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="0" IconTextColourOff="0">
+				<button bid="0" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="11" alias="Shipyard" role_id="11">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="00000AFF" texture="none" texturescale="14"/>
+				<iconcolour on="4040C0FF" off="E0D0D0FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="58"/>
+				<noticeboard textcolour="401ABAFF" fontsize="28"/>
+				<statustext textcolour="808080FF" fontsize="30"/>
+				<targettext textcolour="8080F0FF" fontsize="15"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="0" IconTextColourOff="0">
+				<button bid="0" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="12" alias="Custom" role_id="12">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="202070FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="F01010FF" off="801010FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="58"/>
+				<noticeboard textcolour="FE690AFF" fontsize="40"/>
+				<statustext textcolour="F0F0F0FF" fontsize="30"/>
+				<targettext textcolour="B0B0B0FF" fontsize="15"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="1" IconTextColourOff="0">
+				<button bid="0" iconname="Cargo Scoop" icon="7" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="" icon="-1" keypress="" showlabel="false" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="13" alias="On Foot" role_id="13">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="400606FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="F09000FF" off="905000FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="58"/>
+				<noticeboard textcolour="FE690AFF" fontsize="40"/>
+				<statustext textcolour="FE690AFF" fontsize="29"/>
+				<targettext textcolour="FE690AFF" fontsize="29"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="1" IconTextColourOff="1">
+				<button bid="0" iconname="help" icon="47" keypress="HumanoidToggleMissionHelpPanelButton=K,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="Tool Mode" icon="46" keypress="HumanoidToggleToolModeButton=J,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="Galaxy Map" icon="25" keypress="GalaxyMapOpen_Humanoid=R,LeftCtrl,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="System Map" icon="19" keypress="SystemMapOpen_Humanoid=H,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="analysis" icon="29" keypress="HumanoidSwitchToCompAnalyser=E,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="Night Vision" icon="5" keypress="HumanoidToggleNightVisionButton=Z,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="Lights" icon="16" keypress="HumanoidToggleFlashlightButton=E,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="Shields" icon="31" keypress="HumanoidToggleShieldsButton=G,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="charge" icon="44" keypress="HumanoidSwitchToRechargeTool=H,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="suit" icon="45" keypress="HumanoidSwitchToSuitTool=I,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+		<layout id="14" alias="Foot Weapons" role_id="14">
+			<enabled value="0"/>
+			<defaults>
+				<background RGBA="104010FF" texture="hexagons" texturescale="14"/>
+				<iconcolour on="10FF10FF" off="108010FF"/>
+				<Icontextgap pixels="0"/>
+				<Hazard blend="58"/>
+				<noticeboard textcolour="FE690AFF" fontsize="25"/>
+				<statustext textcolour="C01010FF" fontsize="40"/>
+				<targettext textcolour="D0D0D0FF" fontsize="26"/>
+				<clearcolour RGBA="00000000"/>
+			</defaults>
+			<buttons sizescale="8" enabled="1" IconTextColourOff="1">
+				<button bid="0" iconname="help" icon="47" keypress="HumanoidToggleMissionHelpPanelButton=K,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="1" iconname="Tool Mode" icon="46" keypress="HumanoidToggleToolModeButton=J,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="2" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="3" iconname="Galaxy Map" icon="25" keypress="GalaxyMapOpen_Humanoid=R,LeftCtrl,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="4" iconname="System Map" icon="19" keypress="SystemMapOpen_Humanoid=H,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="5" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="6" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="7" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="8" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="9" iconname="analysis" icon="29" keypress="HumanoidSwitchToCompAnalyser=E,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="10" iconname="Night Vision" icon="5" keypress="HumanoidToggleNightVisionButton=Z,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="11" iconname="Lights" icon="16" keypress="HumanoidToggleFlashlightButton=E,LeftShift,LeftAlt" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="12" iconname="Shields" icon="31" keypress="HumanoidToggleShieldsButton=G,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="13" iconname="charge" icon="44" keypress="HumanoidSwitchToRechargeTool=H,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="14" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="15" iconname="suit" icon="45" keypress="HumanoidSwitchToSuitTool=I,RightCtrl" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="16" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="17" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="18" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+				<button bid="19" iconname="" icon="-1" keypress="" showlabel="true" hazard="false" statusbit="0">
+					<colour on="" off=""/>
+				</button>
+			</buttons>
+		</layout>
+	</layouts>
+</configuration>
